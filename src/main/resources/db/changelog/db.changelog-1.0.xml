@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <changeSet author="faisal" id="1001122001_create_tables">
+        <createTable tableName="movies">
+            <column name="id" type="VARCHAR(255)">
+                <constraints primaryKey="true" unique="true"/>
+            </column>
+            <column name="budget" type="VARCHAR(255)"/>
+            <column name="genres" type="LONGTEXT"/>
+            <column name="homepage" type="VARCHAR(255)"/>
+            <column name="keywords" type="LONGTEXT"/>
+            <column name="original_language" type="VARCHAR(255)"/>
+            <column name="original_title" type="VARCHAR(255)"/>
+            <column name="overview" type="LONGTEXT"/>
+            <column name="popularity" type="VARCHAR(255)"/>
+            <column name="production_companies" type="LONGTEXT"/>
+            <column name="production_countries" type="LONGTEXT"/>
+            <column name="release_date" type="VARCHAR(255)"/>
+            <column name="revenue" type="VARCHAR(255)"/>
+            <column name="runtime" type="VARCHAR(255)"/>
+            <column name="spoken_languages" type="LONGTEXT"/>
+            <column name="status" type="VARCHAR(255)"/>
+            <column name="tagline" type="VARCHAR(255)"/>
+            <column name="title" type="VARCHAR(255)"/>
+            <column name="vote_average" type="VARCHAR(255)"/>
+            <column name="vote_count" type="VARCHAR(255)"/>
+        </createTable>
+        <createTable tableName="credits">
+            <column name="movie_id" type="VARCHAR(255)">
+                <constraints primaryKey="true" unique="true"/>
+            </column>
+            <column name="title" type="VARCHAR(255)"/>
+            <column name="cast" type="LONGTEXT"/>
+            <column name="crew" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>
