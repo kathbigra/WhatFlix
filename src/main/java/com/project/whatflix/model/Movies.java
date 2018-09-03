@@ -1,8 +1,12 @@
 package com.project.whatflix.model;
 
-import lombok.Data;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-@Data
+@Table(name = "movies")
+@Entity
 public class Movies {
   public Movies(String budget, String genres, String homepage, String id, String keywords, String original_language, String original_title, String overview, String popularity, String production_companies, String production_countries, String release_date, String revenue, String runtime, String spoken_languages, String status, String tagline, String title, String vote_average, String vote_count) {
     this.budget = budget;
@@ -27,7 +31,7 @@ public class Movies {
     this.vote_count = vote_count;
   }
 
-  public Movies(){
+  public Movies() {
   }
 
   public String getBudget() {
@@ -190,6 +194,46 @@ public class Movies {
     this.vote_count = vote_count;
   }
 
-  private String budget, genres, homepage, id, keywords, original_language, original_title, overview, popularity, production_companies, production_countries, release_date, revenue, runtime, spoken_languages, status, tagline, title, vote_average, vote_count;
+  @Column(name = "budget")
+  private String budget;
+  @Column(name = "genres")
+  private String genres;
+  @Column(name = "homepage")
+  private String homepage;
+  @Column(name = "id")
+  @Id
+  private String id;
+  @Column(name = "keywords")
+  private String keywords;
+  @Column(name = "original_language")
+  private String original_language;
+  @Column(name = "original_title")
+  private String original_title;
+  @Column(name = "overview")
+  private String overview;
+  @Column(name = "popularity")
+  private String popularity;
+  @Column(name = "production_companies")
+  private String production_companies;
+  @Column(name = "production_countries")
+  private String production_countries;
+  @Column(name = "release_date")
+  private String release_date;
+  @Column(name = "revenue")
+  private String revenue;
+  @Column(name = "runtime")
+  private String runtime;
+  @Column(name = "spoken_languages")
+  private String spoken_languages;
+  @Column(name = "status")
+  private String status;
+  @Column(name = "tagline")
+  private String tagline;
+  @Column(name = "title")
+  private String title;
+  @Column(name = "vote_average")
+  private String vote_average;
+  @Column(name = "vote_count")
+  private String vote_count;
 
 }

@@ -2,7 +2,13 @@ package com.project.whatflix.model;
 
 import lombok.Data;
 
-@Data
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name = "credits")
+@Entity
 public class Credits {
   public String getMovie_id() {
     return movie_id;
@@ -36,9 +42,15 @@ public class Credits {
     this.crew = crew;
   }
 
+
+  @Column(name = "movie_id")
+  @Id
   private String movie_id;
+  @Column(name = "title")
   private String title;
+  @Column(name = "cast")
   private String cast;
+  @Column(name = "crew")
   private String crew;
 
   public Credits(String movie_id, String title, String cast, String crew) {

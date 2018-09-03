@@ -18,6 +18,11 @@ public class JobCompletionNotificationListenerForCredits extends JobExecutionLis
   }
 
   @Override
+  public void beforeJob(JobExecution jobExecution) {
+    log.info("Starting reading Credits data.");
+  }
+
+  @Override
   public void afterJob(JobExecution jobExecution) {
     if (jobExecution.getStatus() == BatchStatus.COMPLETED) {
       log.info("Finished reading Credits data.");

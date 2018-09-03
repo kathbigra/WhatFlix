@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7a8ec1-3e36-4913-9167-a4085353614e" name="Default" comment="" />
+    <list default="true" id="5e7a8ec1-3e36-4913-9167-a4085353614e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadCreditsFromCSVJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/UserPreferenceConfigurationInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/UserPreferenceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/FetchUserPreferenceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserPreferenceParseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserRequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/user_preference.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhatFlix.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/WhatFlix.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhatFlix.iws" beforeDir="false" afterPath="$PROJECT_DIR$/WhatFlix.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhatFlix_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WhatFlix_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhatFlix_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WhatFlix_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/jobs/ReadCredotsFromCSVJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/listeners/JobCompletionNotificationListenerForCredits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/listeners/JobCompletionNotificationListenerForCredits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/model/Credits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/model/Credits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/model/Movies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/model/Movies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/model/UserPreference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/model/UserPreference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/services/RestServicesForUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/services/RestServicesForUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/start/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/start/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/start/StartUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/start/StartUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/tmdb_5000_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/tmdb_5000_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/user_preferences.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadCredotsFromCSVJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForCredits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForCredits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Credits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/UserPreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/UserPreference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/RestServicesForUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/RestServicesForUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/StartUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tmdb_5000_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tmdb_5000_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user_preferences.json" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -39,8 +76,8 @@
       <file leaf-file-name="RestServicesForUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/services/RestServicesForUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="374">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserPreference.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/model/UserPreference.java">
+      <file leaf-file-name="UserPreferenceConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/start/UserPreferenceConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="71" selection-start-line="76" selection-start-column="71" selection-end-line="76" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,23 +97,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatchConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/config/BatchConfiguration.java">
+      <file leaf-file-name="UserRequestUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserRequestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="493">
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobCompletionNotificationListenerForMovies.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.java">
+      <file leaf-file-name="FetchUserPreferenceUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/FetchUserPreferenceUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#2598#2599#0" expanded="true" />
+                <element signature="e#2654#2655#0" expanded="true" />
+                <element signature="e#2707#2708#0" expanded="true" />
+                <element signature="e#2752#2753#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPreferenceParseUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserPreferenceParseUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,6 +175,11 @@
       <find>lombok</find>
       <find>pipe</find>
       <find>\t</find>
+      <find>jack</find>
+      <find>{}</find>
+      <find>Log</find>
+      <find>m.</find>
+      <find>createQuery</find>
     </findStrings>
     <replaceStrings>
       <replace>faisal</replace>
@@ -126,7 +188,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/WhatFlix" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -380,9 +442,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6139806139815" />
+        <entry key="$PROJECT_DIR$" value="6140088145057" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="690122307" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="382930164" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2315767835" />
       </map>
@@ -595,8 +657,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-1.0.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/StartUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/API1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Moview.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Crerdits.java" />
@@ -612,24 +672,40 @@
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ImportCreditsConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/CommaSeparatorStepListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/LoadCsvToDBService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Credits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Movies.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/PipeSeparatorStepListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/BatchConfig.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/PipeSeparatedFileReaderJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/CommaSeparatedFileReaderJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForCredits.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/Api2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/Api1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadCredotsFromCSVJob.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/user_preference.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/StartUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/config/UserPreferenceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/config/UPC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Credits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Movies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/config/BatchConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadCreditsFromCSVJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadMoviesFromCSVJob.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/RestServicesForUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/UserPreferenceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/controller/UserPreferenceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserPreferenceUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserPreferenceParseUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/UPC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/services/UserPreferenceConfigurationInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/model/UserPreference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadCredotsFromCSVJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadMoviesFromCSVJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/config/BatchConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForCredits.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/DBUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/start/UserPreferenceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/FetchUserPreferenceUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserRequestUtil.java" />
       </list>
     </option>
   </component>
@@ -638,29 +714,21 @@
     <option name="width" value="931" />
     <option name="height" value="1087" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
               <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
@@ -747,6 +815,15 @@
               <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -761,9 +838,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -771,11 +847,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.project.whatflix.jobs" />
-      <recent name="com.project.whatflix.listeners" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Code\WhatFlix\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Development\Code\WhatFlix\src\main\resources\db.changelog" />
@@ -785,8 +861,10 @@
       <recent name="com.project.whatflix.jobs" />
       <recent name="com.project.whatflix" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Development\Code\WhatFlix\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.project.whatflix.utility" />
+      <recent name="com.project.whatflix.jobs" />
+      <recent name="com.project.whatflix.listeners" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -887,81 +965,108 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.33091286" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32987553" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32676348" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32987553" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32676348" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16862088" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19988833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.32912844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3526971" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34958506" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32780084" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.32912844" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32676348" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16862088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.34958506" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32676348" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32780084" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.33091286" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/WhatFlix" />
+    </ignored-roots>
+    <MESSAGE value="Coding done.&#10;Api's working as expected.&#10;&#10;Logging/Junit/Refractoring to be done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Coding done.&#10;Api's working as expected.&#10;&#10;Logging/Junit/Refractoring to be done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Credits.java</url>
-          <line>44</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.java</url>
@@ -970,279 +1075,72 @@
           <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="144" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="query.getMaxResults()" />
+        <watch expression="query.getResultList().size()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>query.getResultList().size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>(ArrayList&lt;String&gt;)objecj.get(&quot;favourite_actors&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.ArrayList</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>objecj.get(&quot;favourite_actors&quot;)</expression-string>
+        <expression-string>new org.codehaus.jettison.json.JSONObject(crew)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>userPreferenceJson.myHashMap.entrySet</expression-string>
+        <expression-string>new org.codehaus.jettison.json.JSONArray(crew)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>userPreferenceJson.myHashMap.entrySet()[0]</expression-string>
+        <expression-string>new JSONArray()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>userPreferenceJson</expression-string>
+        <expression-string>new JSONArray(crew)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>userPreferenceJson.getJSONArray(&quot;preferred_language&quot;)</expression-string>
+        <expression-string>new JSONObject(crew)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>userPreferenceJson.getString(&quot;preferred_language&quot;)</expression-string>
+        <expression-string>query.getResultList()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>userPreferenceJson.get(&quot;preferred_language&quot;)</expression-string>
+        <expression-string>movieId.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String.valueOf(movieId)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tempMovie.get(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-1.0.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/start/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/4.0.1.RELEASE/7b2c22182d71eefe5c16e78a396ea6b747a3a5f1/spring-batch-infrastructure-4.0.1.RELEASE-sources.jar!/org/springframework/batch/item/file/transform/AbstractLineTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.12/45caec5a0abdd19d6f4f7f9c1de77d5bb513694e/lombok-1.16.12-sources.jar!/lombok/AllArgsConstructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/controller/MyImportController.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/4.0.1.RELEASE/14fea6cea0bbaea9692de01833e9d1a9540acfaf/spring-batch-core-4.0.1.RELEASE-sources.jar!/org/springframework/batch/core/configuration/annotation/JobBuilderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/4.0.1.RELEASE/14fea6cea0bbaea9692de01833e9d1a9540acfaf/spring-batch-core-4.0.1.RELEASE-sources.jar!/org/springframework/batch/core/step/item/SimpleChunkProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/4.0.1.RELEASE/14fea6cea0bbaea9692de01833e9d1a9540acfaf/spring-batch-core-4.0.1.RELEASE-sources.jar!/org/springframework/batch/core/step/builder/SimpleStepBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="218" column="33" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/4.0.1.RELEASE/7b2c22182d71eefe5c16e78a396ea6b747a3a5f1/spring-batch-infrastructure-4.0.1.RELEASE-sources.jar!/org/springframework/batch/item/ItemProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/4.0.1.RELEASE/14fea6cea0bbaea9692de01833e9d1a9540acfaf/spring-batch-core-4.0.1.RELEASE-sources.jar!/org/springframework/batch/core/configuration/annotation/EnableBatchProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="171" column="18" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.6.RELEASE/78d14dd2647aeccc925bbf9c780f97243ec3d2bd/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="405" column="18" selection-start-line="405" selection-start-column="18" selection-end-line="405" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/MovieProcessor.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/4.0.1.RELEASE/7b2c22182d71eefe5c16e78a396ea6b747a3a5f1/spring-batch-infrastructure-4.0.1.RELEASE-sources.jar!/org/springframework/batch/item/database/JdbcBatchItemWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="75" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/4.0.1.RELEASE/7b2c22182d71eefe5c16e78a396ea6b747a3a5f1/spring-batch-infrastructure-4.0.1.RELEASE-sources.jar!/org/springframework/batch/item/file/FlatFileItemReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="148" column="14" selection-start-line="148" selection-start-column="14" selection-end-line="148" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-1.0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Movies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#3191#3192#0" expanded="true" />
-            <element signature="e#3215#3216#0" expanded="true" />
-            <element signature="e#3259#3260#0" expanded="true" />
-            <element signature="e#3291#3292#0" expanded="true" />
-            <element signature="e#3323#3324#0" expanded="true" />
-            <element signature="e#3347#3348#0" expanded="true" />
-            <element signature="e#3391#3392#0" expanded="true" />
-            <element signature="e#3423#3424#0" expanded="true" />
-            <element signature="e#3767#3768#0" expanded="true" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3867#3868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/LoadCsvToDBService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/CreditProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/CustomProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/BatchConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForCredits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/services/Api2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Credits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/user_preferences.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="1" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/19b77eec2c68c40e35e569f4c86ae23c52d7cc6b/jettison-1.2-sources.jar!/org/codehaus/jettison/json/JSONObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadMoviesFromCSVJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/start/StartUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadCredotsFromCSVJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.6.RELEASE/984a52455b1be596b7f1a29f62d21d2f483eb764/spring-core-5.0.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.6.RELEASE/78d14dd2647aeccc925bbf9c780f97243ec3d2bd/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="360" selection-start-line="360" selection-end-line="360" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.6.RELEASE/dd30a8aa3ac399acada4d625d7c08d5cfd79be1e/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.6.RELEASE/dd30a8aa3ac399acada4d625d7c08d5cfd79be1e/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="583" selection-start-line="583" selection-end-line="583" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.6.RELEASE/dd30a8aa3ac399acada4d625d7c08d5cfd79be1e/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/DependencyDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.6.RELEASE/dd30a8aa3ac399acada4d625d7c08d5cfd79be1e/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/InjectionMetadata.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1313,36 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/services/RestServicesForUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/model/UserPreference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/config/BatchConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/4.0.1.RELEASE/14fea6cea0bbaea9692de01833e9d1a9540acfaf/spring-batch-core-4.0.1.RELEASE-sources.jar!/org/springframework/batch/core/listener/JobExecutionListenerSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1350,12 +1218,344 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.1.0/923cecc60d9ab142e1b8c35490a0e8190b3a74b2/jackson-core-asl-1.1.0.jar!/org/codehaus/jackson/map/DeserializationConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="190">
+          <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/user_preferences.json" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/nio/file/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="71" column="66" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="66" />
+          <folding>
+            <element signature="e#2673#2674#0" expanded="true" />
+            <element signature="e#2741#2742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.12/45caec5a0abdd19d6f4f7f9c1de77d5bb513694e/lombok-1.16.12-sources.jar!/lombok/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/19b77eec2c68c40e35e569f4c86ae23c52d7cc6b/jettison-1.2-sources.jar!/org/codehaus/jettison/json/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1382">
+          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+          <folding>
+            <element signature="e#5389#5390#0" expanded="true" />
+            <element signature="e#5441#5442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="86" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.5/7f93f92d7ff619c1a49b5442ba77c0c297a88019/jackson-databind-2.9.5-sources.jar!/com/fasterxml/jackson/databind/node/ObjectNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.5/7f93f92d7ff619c1a49b5442ba77c0c297a88019/jackson-databind-2.9.5-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="3652" column="17" selection-start-line="3652" selection-start-column="17" selection-end-line="3652" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/parser/JSONParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/resources/db/changelog/db.changelog-1.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.2.17.Final/c21082f4888449976adb58eb25cfbe090cf3afa5/hibernate-core-5.2.17.Final-sources.jar!/org/hibernate/query/internal/NativeQueryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="591" column="18" lean-forward="true" selection-start-line="591" selection-start-column="18" selection-end-line="591" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.2.17.Final/c21082f4888449976adb58eb25cfbe090cf3afa5/hibernate-core-5.2.17.Final-sources.jar!/org/hibernate/query/internal/AbstractProducedQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="523" column="26" selection-start-line="523" selection-start-column="26" selection-end-line="523" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/33fbaa7276b774ef0925f541640f6ff23fbc62dc/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/start/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.6.RELEASE/80d2ad911e4381ea99237aa00332271f132b2eb3/spring-web-5.0.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/model/Credits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/33fbaa7276b774ef0925f541640f6ff23fbc62dc/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/EntityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="587" column="56" selection-start-line="587" selection-start-column="48" selection-end-line="587" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="407" column="19" selection-start-line="407" selection-start-column="19" selection-end-line="407" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/15bba08e3a239d54b68209c001f9c911559d2fed/json-simple-1.1.1-sources.jar!/org/json/simple/JSONArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-994">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tmdb_5000_movies.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="182" selection-start-column="176" selection-end-column="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/start/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/services/RestServicesForUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-1.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/user_preference.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/model/UserPreference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadCreditsFromCSVJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForCredits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/listeners/JobCompletionNotificationListenerForMovies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/jobs/ReadMoviesFromCSVJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/config/BatchConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1222">
+          <caret line="76" column="61" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/services/UserPreferenceConfigurationInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserPreferenceParseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/start/UserPreferenceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="71" selection-start-line="76" selection-start-column="71" selection-end-line="76" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/FetchUserPreferenceUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2707#2708#0" expanded="true" />
+            <element signature="e#2752#2753#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -19,10 +19,10 @@ public class JobCompletionNotificationListenerForMovies extends JobExecutionList
 
   @Override
   public void beforeJob(JobExecution jobExecution) {
-    if (jobExecution.getStatus() == BatchStatus.COMPLETED) {
-      log.info("Starting reading Movies data.");
-    }
-  }@Override
+    log.info("Starting reading Movies data.");
+  }
+
+  @Override
   public void afterJob(JobExecution jobExecution) {
     if (jobExecution.getStatus() == BatchStatus.COMPLETED) {
       log.info("Finished reading Movies data.");
