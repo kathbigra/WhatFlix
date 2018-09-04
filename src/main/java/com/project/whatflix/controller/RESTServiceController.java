@@ -1,4 +1,4 @@
-package com.project.whatflix.services;
+package com.project.whatflix.controller;
 
 
 import com.project.whatflix.model.Credits;
@@ -6,9 +6,11 @@ import com.project.whatflix.model.UserPreference;
 import com.project.whatflix.utility.FetchUserPreferenceUtil;
 import com.project.whatflix.utility.UserPreferenceParseUtil;
 import com.project.whatflix.utility.UserRequestUtil;
+import org.codehaus.jettison.json.JSONArray;
+import org.codehaus.jettison.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Controller;
 import org.springframework.util.ResourceUtils;
 
 import javax.annotation.PostConstruct;
@@ -20,8 +22,8 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@Service
-public class UserPreferenceConfiguration implements UserPreferenceConfigurationInterface {
+@Controller
+public class RESTServiceController implements RESTServiceControllerInterface {
 
   @Autowired
   EntityManager entityManager;
@@ -50,17 +52,30 @@ public class UserPreferenceConfiguration implements UserPreferenceConfigurationI
    * Fetch top 3 movies for the particular user in a JsonArray.
    *
    * @param userPreference
+   * @param limit
+   * @param priority
    * @return List of movies for the user.
    */
-  @Override
-  public org.codehaus.jettison.json.JSONArray getUserPreferredMovies(UserPreference userPreference) {
+  private org.codehaus.jettison.json.JSONArray getUserPreferredMovies(UserPreference userPreference, int limit, String priority) {
     FetchUserPreferenceUtil fetchUserPreferenceUtil = new FetchUserPreferenceUtil(entityManager);
-    List<Credits> creditsOfActorChoice = fetchUserPreferenceUtil.fetchPreferedList(userPreference, "cast");
-    List<Credits> creditsOfDirectorChoice = fetchUserPreferenceUtil.fetchPreferedList(userPreference, "crew");
-    if (creditsOfDirectorChoice.size() < 1 && creditsOfActorChoice.size() < 1)
-      //If nothing matches the preference return blank list.
-      return new org.codehaus.jettison.json.JSONArray();
-    return fetchUserPreferenceUtil.findPreferenceMovies(creditsOfActorChoice, creditsOfDirectorChoice);
+    return fetchUserPreferenceUtil.getTopMovies(userPreference, limit,priority);
+  }
+
+  @Override
+  public JSONArray getPreferredMovies(int PREFERRED_LIMT, String priority) {
+    JSONArray preferredMovies = new JSONArray();
+    getUserPreferenceData().forEach((userId, userPreference) -> {
+      try {
+        JSONObject userdata = new JSONObject();
+        userdata.put("user", userId);
+        userdata.put("movies",
+            getUserPreferredMovies(userPreference, PREFERRED_LIMT,priority));
+        preferredMovies.put(userdata);
+      } catch (Exception e) {
+        log.log(Level.ALL, e.getMessage(), e);
+      }
+    });
+    return preferredMovies;
   }
 
   /**
@@ -72,13 +87,17 @@ public class UserPreferenceConfiguration implements UserPreferenceConfigurationI
    */
   @Override
   public String[] getUserRequestedMovies(String userId, String search) {
+    if(!getUserPreferenceData().containsKey(userId))return new String[0];
     String[] searchStrings = search.split(",");
     UserRequestUtil userRequestUtil = new UserRequestUtil(entityManager);
-    List<Credits> creditsList = userRequestUtil.getCreditListBasedOnUserSearch(searchStrings);
-    return userRequestUtil.sortListAsPerUserPreference(creditsList, getUserPreferenceForUser(userId));
+    List<Credits> searchedList = userRequestUtil.getCreditListBasedOnUserSearch(searchStrings);
+    List<Credits> preferredList = userRequestUtil.getCreditListBasedOnPreference(getUserPreferenceForUser(userId));
+    preferredList.retainAll(searchedList);
+    searchedList.removeAll(preferredList);
+    return userRequestUtil.getTitlesInSortedOrder(preferredList, searchedList);
   }
 
-  Logger log = Logger.getLogger(UserPreferenceConfiguration.class.getName());
+  Logger log = Logger.getLogger(RESTServiceController.class.getName());
 
   private HashMap<String, UserPreference> userPreferenceData = new HashMap<>();
 

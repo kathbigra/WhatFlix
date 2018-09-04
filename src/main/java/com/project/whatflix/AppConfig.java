@@ -1,4 +1,4 @@
-package com.project.whatflix.start;
+package com.project.whatflix;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
