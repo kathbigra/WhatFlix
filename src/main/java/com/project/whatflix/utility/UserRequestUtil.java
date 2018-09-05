@@ -1,5 +1,6 @@
 package com.project.whatflix.utility;
 
+import com.project.whatflix.controller.RESTServiceController;
 import com.project.whatflix.model.Credits;
 import com.project.whatflix.model.Movies;
 import com.project.whatflix.model.UserPreference;
@@ -8,6 +9,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 import static com.project.whatflix.utility.SQLQueryUtil.*;
 
@@ -43,6 +45,8 @@ public class UserRequestUtil {
     for (Credits tempCredit : preferredList) {
       movieNameList.add(tempCredit.getTitle());
     }
+    log.info("Final list contains: " + movieNameList.size() + " movies.");
     return movieNameList.toArray(new String[0]);
-  }
+  }Logger log = Logger.getLogger(UserRequestUtil.class.getName());
+
 }

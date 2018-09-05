@@ -20,7 +20,6 @@ import java.util.logging.Logger;
 @Configuration
 @EnableBatchProcessing
 public class BatchConfiguration {
-  Logger log = Logger.getLogger(BatchConfiguration.class.getName());
   @Autowired
   private DataSource dataSource;
 

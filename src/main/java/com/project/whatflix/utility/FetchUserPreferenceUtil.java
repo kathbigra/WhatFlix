@@ -1,5 +1,6 @@
 package com.project.whatflix.utility;
 
+import com.project.whatflix.controller.RESTServiceController;
 import com.project.whatflix.model.Credits;
 import com.project.whatflix.model.Movies;
 import com.project.whatflix.model.UserPreference;
@@ -9,6 +10,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.Logger;
 
 import static com.project.whatflix.utility.SQLQueryUtil.*;
 
@@ -19,7 +21,7 @@ public class FetchUserPreferenceUtil {
     this.entityManager = entityManager;
   }
 
-
+  Logger log = Logger.getLogger(FetchUserPreferenceUtil.class.getName());
   public JSONArray getTopMovies(UserPreference userPreference, int limit, String priority) {
     StringBuilder sql = new StringBuilder("select title " + getSelectFrom(Movies.class.getName()) +
         getWhereClause("movie") + " movie.id IN (" +
@@ -32,6 +34,7 @@ public class FetchUserPreferenceUtil {
     query.setMaxResults(limit);
     List<String> suggestionList = query.getResultList();
     Collections.sort(suggestionList);
+    log.info("Succefully fetched " + suggestionList.size() + " movies");
     return new JSONArray(suggestionList);
   }
 

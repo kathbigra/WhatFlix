@@ -6,17 +6,20 @@ import com.project.whatflix.model.UserPreference;
 import com.project.whatflix.utility.FetchUserPreferenceUtil;
 import com.project.whatflix.utility.UserPreferenceParseUtil;
 import com.project.whatflix.utility.UserRequestUtil;
+import org.apache.commons.io.FileUtils;
+import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Controller;
-import org.springframework.util.ResourceUtils;
 
 import javax.annotation.PostConstruct;
 import javax.persistence.EntityManager;
 import java.io.File;
 import java.io.FileReader;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
@@ -34,64 +37,72 @@ public class RESTServiceController implements RESTServiceControllerInterface {
   @PostConstruct
   public void parseUserPreferences() {
     try {
-      File jsonFile = ResourceUtils.getFile("classpath:user_preference.json");
-      org.json.simple.JSONArray usersPrefrences = (org.json.simple.JSONArray) new JSONParser().parse(new FileReader(jsonFile));
+      ClassPathResource classPathResource = new ClassPathResource("user_preference.json");
+      InputStream inputStream = classPathResource.getInputStream();
+      File tempFile = File.createTempFile("temp", ".json");
+      try {
+        FileUtils.copyInputStreamToFile(inputStream, tempFile);
+      } finally {
+        IOUtils.closeQuietly(inputStream);
+      }
+      log.info("Reading user preference from: " + tempFile.getAbsolutePath());
+      if (!tempFile.exists()) log.warning("No user config found.");
+      org.json.simple.JSONArray usersPrefrences = (org.json.simple.JSONArray) new JSONParser().parse(new FileReader(tempFile));
       for (int i = 0; i < usersPrefrences.size(); i++) {
         org.json.simple.JSONObject individualUserPreference = (org.json.simple.JSONObject) usersPrefrences.get(i);
         userPreferenceData.putAll(
             UserPreferenceParseUtil.fromJson(individualUserPreference));
+
       }
     } catch (Exception e) {
-      log.log(Level.ALL, e.getMessage());
-
+      log.log(Level.WARNING, e.getMessage());
     }
-    log.info("User preference json parsed successfully");
+    log.info("User preference json parsed successfully with " + userPreferenceData.size() + " records.");
   }
 
   /**
-   * Fetch top 3 movies for the particular user in a JsonArray.
+   * Get set of movies recommended to every user.
    *
-   * @param userPreference
    * @param limit
    * @param priority
-   * @return List of movies for the user.
+   * @return
    */
-  private org.codehaus.jettison.json.JSONArray getUserPreferredMovies(UserPreference userPreference, int limit, String priority) {
-    FetchUserPreferenceUtil fetchUserPreferenceUtil = new FetchUserPreferenceUtil(entityManager);
-    return fetchUserPreferenceUtil.getTopMovies(userPreference, limit,priority);
-  }
-
   @Override
-  public JSONArray getPreferredMovies(int PREFERRED_LIMT, String priority) {
+  public JSONArray getPreferredMovies(int limit, String priority) {
     JSONArray preferredMovies = new JSONArray();
     getUserPreferenceData().forEach((userId, userPreference) -> {
+      log.info("Fetching data for userId: " + userId);
       try {
         JSONObject userdata = new JSONObject();
         userdata.put("user", userId);
-        userdata.put("movies",
-            getUserPreferredMovies(userPreference, PREFERRED_LIMT,priority));
+        userdata.put("movies", (new FetchUserPreferenceUtil(entityManager)).getTopMovies(userPreference, limit, priority));
         preferredMovies.put(userdata);
       } catch (Exception e) {
-        log.log(Level.ALL, e.getMessage(), e);
+        log.log(Level.WARNING, "UserId: " + userId + " " + e.getMessage(), e);
       }
     });
     return preferredMovies;
   }
 
   /**
-   * Method to fetch requested movies based on user search query.
+   * Get list of movies requested by user using his/her search query.
    *
    * @param userId
    * @param search
-   * @return Array of movies based on search parameters.
+   * @return
    */
   @Override
   public String[] getUserRequestedMovies(String userId, String search) {
-    if(!getUserPreferenceData().containsKey(userId))return new String[0];
+    if (!getUserPreferenceData().containsKey(userId)) {
+      log.info("User id not found: " + userId);
+      return new String[0];
+    }
     String[] searchStrings = search.split(",");
     UserRequestUtil userRequestUtil = new UserRequestUtil(entityManager);
     List<Credits> searchedList = userRequestUtil.getCreditListBasedOnUserSearch(searchStrings);
+    log.info("Searched list size: " + searchedList.size());
     List<Credits> preferredList = userRequestUtil.getCreditListBasedOnPreference(getUserPreferenceForUser(userId));
+    log.info("Preferred list size: " + preferredList.size());
     preferredList.retainAll(searchedList);
     searchedList.removeAll(preferredList);
     return userRequestUtil.getTitlesInSortedOrder(preferredList, searchedList);
@@ -101,11 +112,22 @@ public class RESTServiceController implements RESTServiceControllerInterface {
 
   private HashMap<String, UserPreference> userPreferenceData = new HashMap<>();
 
+  /**
+   * Get all the user preference data as a map.
+   *
+   * @return
+   */
   @Override
   public HashMap<String, UserPreference> getUserPreferenceData() {
     return userPreferenceData;
   }
 
+  /**
+   * Get UserPreference Data of a particular user
+   *
+   * @param userId
+   * @return
+   */
   @Override
   public UserPreference getUserPreferenceForUser(String userId) {
     return userPreferenceData.get(userId);

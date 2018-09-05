@@ -23,6 +23,7 @@ public class UserPreferenceParseUtil {
     try {
       org.json.simple.JSONObject userPreference = (org.json.simple.JSONObject) individualUserPreferenceJson.get(userPreferenceEntry.getKey());
       userPreferenceHashMap.put((String) userPreferenceEntry.getKey(), parse(userPreference));
+      log.info("User preference read for user id: " + userPreferenceEntry.getKey());
     } catch (Exception e) {
       log.info(e.getMessage());
     }
