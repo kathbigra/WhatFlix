@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e7a8ec1-3e36-4913-9167-a4085353614e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhatFlix.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/WhatFlix.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/READ_ME.rtf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WhatFlix.iws" beforeDir="false" afterPath="$PROJECT_DIR$/WhatFlix.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhatFlix_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WhatFlix_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhatFlix_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WhatFlix_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$1$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$1.class" afterDir="false" />
@@ -28,14 +16,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$2$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/project/whatflix/config/BatchConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/config/BatchConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/config/BatchConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/controller/RESTServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/controller/RESTServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/controller/RESTServiceControllerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/controller/RESTServiceControllerInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/FetchUserPreferenceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/FetchUserPreferenceUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserPreferenceParseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserPreferenceParseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserRequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/whatflix/utility/UserRequestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/whatflix/services/RestServicesForUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/whatflix/services/RestServicesForUserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -704,144 +684,6 @@
               <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
               <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="changelog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhatFlix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whatflix" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhatFlix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -849,7 +691,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -863,6 +705,7 @@
       <recent name="com.project.whatflix.listeners" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\Code\WhatFlix" />
       <recent name="D:\Development\Code\WhatFlix\src\main\resources\db.changelog" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1073,7 +916,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536097279854</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Done.">
+      <created>1536149056546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536149056546</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1110,7 +960,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1851" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1122,10 +971,10 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32676348" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32365146" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32676348" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32676348" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2361809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2361809" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32780084" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32676348" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.32912844" />
@@ -1210,7 +1059,8 @@
     <MESSAGE value="Coding done.&#10;Api's working as expected.&#10;&#10;Logging/Junit/Refractoring to be done." />
     <MESSAGE value="Refactoring and logging done.&#10;Junit and negative testing left. And build script" />
     <MESSAGE value="Final commit after Junit cases and code refractoring.&#10;Commenting and logging left." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final commit after Junit cases and code refractoring.&#10;Commenting and logging left." />
+    <MESSAGE value="Done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
